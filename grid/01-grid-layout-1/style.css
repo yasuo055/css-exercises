@@ -27,7 +27,6 @@ html {
 .header {
   background-color: #006157;
   grid-column: 1 / 4;
-  grid-row: 1;
 }
 
 .sidebar {
@@ -42,14 +41,12 @@ html {
 
 .article {
   background-color: #7E1DC3;
-  grid-column: 2 / 4;
+  grid-column: 2 /  span 2;
 }
 
 .footer {
   background-color: #393f4d;
-  grid-row: 4;
   grid-column: 1 / span 3;
-
 }
 
 .article p {
